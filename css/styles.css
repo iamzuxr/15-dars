@@ -1,0 +1,123 @@
+*,
+*::after, 
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+
+}
+.container{
+    width: 1200px;
+    max-width: 0 auto;
+}
+.site{
+    box-shadow: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 30px 180px;
+}
+.section__site-header{
+    width: 400px;
+    height: 715px;
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__nav-list{
+    display: flex;
+    padding: 35px;
+    
+}
+.fa-arrow-left, .nav_list__back-link-iteam{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(83, 80, 80);
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 5px;
+    
+}
+.nav_list__back-link{
+    display: flex;
+}
+.nav_list__back-link-iteam:hover{
+    color: black;
+}
+
+.nav-list{
+    display: flex;
+    padding-left: 600px;
+
+}
+.nav__list-iteam{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(159, 157, 157);
+    text-transform: uppercase;
+    margin-left: 20px;
+    
+}
+.nav__list-iteam:hover{
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.sub_main{
+    margin-top: -580px;
+    margin-left: 500px;
+    margin-bottom: 80px;
+
+}
+.sub__main-title{
+    position: relative;
+}
+.title-iteam{
+    font-family:serif;
+    font-size: 90px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #111;
+    right: 22%;
+    top: 80%;
+}
+.main__text-iteam{
+    font-family: serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.sub__main-resource{
+    display: flex;
+}
+.main__img-iteam{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+.main__img-gallery{
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(83, 80, 80);
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+.img_resource-text{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 60px;
+}
